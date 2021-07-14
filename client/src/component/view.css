@@ -1,0 +1,23 @@
+.product {
+    margin-top:5vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
+    
+}
+.product p{
+    /* border: 1px solid black; */
+    padding : 1rem;
+     border-radius:1rem;
+    box-shadow: 2px 5px 10px  rgba(209, 206, 206, 0.795);
+}
+
+.name{
+    font-weight: bolder;
+    
+    text-align: center;
+    grid-column: 1/-1;
+}
+.description{
+    grid-column: 1/-1;
+}

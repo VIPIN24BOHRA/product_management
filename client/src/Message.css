@@ -1,0 +1,35 @@
+.msg{
+
+  padding:20px 50px;
+ border: 2px solid rgb(22, 119, 3);
+ width: 20%;
+ box-shadow: 2px 5px 10px rgba(12, 156, 19, 0.384);
+ border-radius: 10px;
+  position: fixed;
+  left: 75%;
+  top: 85vh;
+  background-color: rgba(51, 238, 13, 0.486);
+  transform : translateX(150%); 
+ font-weight: bolder;
+ 
+}
+
+@keyframes msganmt {
+
+ 0% {
+      transform: translateX(150%);
+ }
+
+ 40% {
+     transform: translateX(0%)
+ }
+
+ 60% {
+     transform: translateX(0%);
+ }
+
+ 100%{
+     transform : translateX(150%);
+ }
+
+}
