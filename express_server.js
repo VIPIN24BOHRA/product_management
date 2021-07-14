@@ -42,6 +42,8 @@ app.get("/api/product",(req,res)=>{
     }
 })
 
+
+
 app.post("/api/product",(req,res)=>{
         
      req.body.id=Math.floor(Math.random()*100);
@@ -93,6 +95,10 @@ app.put("/api/product",(req,res)=>{
 
       }
     });
+
+    app.get("*",(req,res)=>{
+        res.sendFile(path.join(__dirname,"client/build/index.html"));
+    })
 
 
 app.listen(port,()=>{
